@@ -61,3 +61,17 @@ nav ul li {
   font-weight: 600;
   font-size: 18px;
 }
+
+/* ------------------------
+   ÁREA PRINCIPAL
+   ------------------------ */
+main {
+  max-width: 1200px;
+  margin: 30px auto 60px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
