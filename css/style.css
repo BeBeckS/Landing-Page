@@ -51,3 +51,13 @@ header h1 {
   letter-spacing: 2px;
   text-shadow: 0 0 10px #00e0ff; /* brilho */
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+nav ul li {
+  font-weight: 600;
+  font-size: 18px;
+}
