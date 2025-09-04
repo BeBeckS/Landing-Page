@@ -26,3 +26,19 @@ a:hover {
   color: #03a9f4;
   text-decoration: underline;
 }
+
+/* ------------------------
+   CABEÇALHO
+   ------------------------ */
+header {
+  background: #0d1117cc; /* fundo escuro e meio transparente */
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between; /* título de um lado, menu do outro */
+  align-items: center;
+  position: sticky; /* gruda no topo quando rolar */
+  top: 0;
+  z-index: 999; /* fica por cima de tudo */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5); /* sombra embaixo */
+  backdrop-filter: blur(8px); /* efeito de vidro */
+}
