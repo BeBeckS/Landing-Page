@@ -160,3 +160,16 @@ button:hover {
   color: #ffffff;
   box-shadow: 0 7px 20px #00838fbb;
 }
+
+/* ------------------------
+   RODAPÉ
+   ------------------------ */
+footer {
+  background: #0a0a0a;
+  color: #78909c;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  border-top: 1px solid #222;
+  margin-top: auto;
+}
