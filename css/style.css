@@ -110,7 +110,7 @@ section.destinos h2 {
       line-height: 1.5;
       color: #d1e8ee;
     }
-    
+
 section.destinos img {
   width: 100%;
   max-width: 560px;
@@ -136,27 +136,46 @@ section.formulario {
   animation: slidein 1.5s ease forwards; /* entra deslizando */
   color: #b7eafd;
 }
-section.formulario h2 {
-  font-family: 'Cinzel', serif;
-  font-size: 32px;
-  margin-bottom: 25px;
-  color: #74d2fe;
-  text-align: center;
-  text-shadow: 0 0 6px #4db8ff;
-}
+ section.formulario h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 2rem;
+      margin-bottom: 25px;
+      color: #74d2fe;
+      border-bottom: 2px solid #74d2feaa;
+      padding-bottom: 8px;
+      text-align: center;
+      text-shadow: 0 0 6px #4db8ff;
+    }
 
-/* Campos do formulário */
-input, select {
-  padding: 12px 15px;
-  font-size: 16px;
-  border-radius: 8px;
-  border: none;
-}
-input:focus, select:focus {
-  box-shadow: 0 0 10px #00e0ff88;
-  background: #014770;
-  color: #d0f5ff;
-}
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    label {
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      padding: 12px 15px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      transition: box-shadow 0.3s ease;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    select:focus {
+      box-shadow: 0 0 10px #00e0ff88;
+      background: #014770;
+      color: #d0f5ff;
+    }
+
 
 /* Botão */
 button {
