@@ -1,0 +1,17 @@
+/* Deixa tudo mais organizadinho */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo da página com um degradê de cores */
+body {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #f0f0f3;
+  min-height: 100vh; /* faz ocupar a tela inteira */
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth; /* rolagem suave */
+}
