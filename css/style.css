@@ -128,3 +128,16 @@ section.formulario h2 {
   text-align: center;
   text-shadow: 0 0 6px #4db8ff;
 }
+
+/* Campos do formulário */
+input, select {
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+input:focus, select:focus {
+  box-shadow: 0 0 10px #00e0ff88;
+  background: #014770;
+  color: #d0f5ff;
+}
