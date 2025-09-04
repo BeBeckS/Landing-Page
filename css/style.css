@@ -46,9 +46,9 @@ header {
 header h1 {
   font-family: 'Cinzel', serif;
   font-weight: 900;
-  font-size: 29px;
+  font-size: 1.8rem;
   color: #00e0ff;
-  letter-spacing: 2px;
+  letter-spacing: 0.1em;
   text-shadow: 0 0 10px #00e0ff; /* brilho */
 }
 
@@ -59,7 +59,7 @@ nav ul {
 }
 nav ul li {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 /* ------------------------
@@ -89,12 +89,28 @@ section.destinos {
 }
 section.destinos h2 {
   font-family: 'Cinzel', serif;
-  font-size: 32px;
+  font-size: 2rem;
   margin-bottom: 20px;
   color: #00e0ff;
   border-bottom: 2px solid #00e0ffaa;
   padding-bottom: 10px;
 }
+
+ section.destinos article {
+      margin-bottom: 30px;
+    }
+    section.destinos h3 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #a0f7ff;
+      letter-spacing: 0.03em;
+      text-shadow: 0 0 3px #00e0ff;
+    }
+    section.destinos p {
+      line-height: 1.5;
+      color: #d1e8ee;
+    }
+    
 section.destinos img {
   width: 100%;
   max-width: 560px;
