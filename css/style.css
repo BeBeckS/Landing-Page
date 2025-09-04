@@ -15,3 +15,14 @@ body {
   flex-direction: column;
   scroll-behavior: smooth; /* rolagem suave */
 }
+
+/* Links */
+a {
+  color: #00bcd4;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #03a9f4;
+  text-decoration: underline;
+}
