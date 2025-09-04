@@ -107,3 +107,24 @@ section.destinos img {
 section.destinos img:hover {
   transform: scale(1.05); /* cresce um pouquinho quando passa o mouse */
 }
+
+/* ------------------------
+   FORMULÁRIO
+   ------------------------ */
+section.formulario {
+  flex: 1 1 350px;
+  background: linear-gradient(145deg, #00324f, #005577);
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 6px 15px rgba(0, 128, 255, 0.6);
+  animation: slidein 1.5s ease forwards; /* entra deslizando */
+  color: #b7eafd;
+}
+section.formulario h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #74d2fe;
+  text-align: center;
+  text-shadow: 0 0 6px #4db8ff;
+}
