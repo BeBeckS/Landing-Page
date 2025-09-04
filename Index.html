@@ -1,106 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viagem no Tempo - Agência Fictícia</title>
-     <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-<!-- Cabeçalho: a parte de cima do site -->
-  <header>
-    <!-- Título do site -->
-    <h1>Viagem no Tempo</h1>
-    <!-- Menu com links para as partes da página -->
-    <nav>
-      <ul>
-        <li><a href="#roma">Roma Antiga</a></li>
-        <li><a href="#medieval">Idade Média</a></li>
-        <li><a href="#futuro">Futuro Cyberpunk</a></li>
-      </ul>
-    </nav>
-  </header>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho: a parte de cima do site -->
+    <header>
+      <!-- Título do site -->
+      <h1>Viagem no Tempo</h1>
+      <!-- Menu com links para as partes da página -->
+      <nav>
+        <ul>
+          <li><a href="#roma">Roma Antiga</a></li>
+          <li><a href="#medieval">Idade Média</a></li>
+          <li><a href="#futuro">Futuro Cyberpunk</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- O conteúdo principal do site -->
-  <main>
-    <!-- Parte que mostra os destinos -->
-    <section class="destinos">
-      <!-- Um destino específico -->
-      <article id="roma">
-        <h2>Roma Antiga</h2>
-        <h3>Explore a majestade do império romano</h3>
-        <p>
-          Visite o Coliseu, o Fórum Romano e aprecie a arquitetura, cultura e história de uma das maiores civilizações da humanidade.
-        </p>
-        <!-- Uma imagem ilustrando -->
-        <img 
-          src="images/roma.jpg" 
-          alt="Coliseu em Roma Antiga - Viagem no Tempo">
-      </article>
+    <main>
+      <!-- Parte que mostra os destinos -->
+      <section class="destinos">
+        <!-- Um destino específico -->
+        <article id="roma">
+          <h2>Roma Antiga</h2>
+          <h3>Explore a majestade do império romano</h3>
+          <p>
+            Visite o Coliseu, o Fórum Romano e aprecie a arquitetura, cultura e
+            história de uma das maiores civilizações da humanidade.
+          </p>
+          <!-- Uma imagem ilustrando -->
+          <img src="images/roma.jpg" alt="Coliseu em Roma Antiga" />
+        </article>
 
-   <article id="medieval">
-        <h2>Idade Média</h2>
-        <h3>Mergulhe no período dos castelos e cavaleiros</h3>
-        <p>
-          Experimente a vida medieval, visite castelos imponentes, participe de torneios e descubra os mistérios da época.
-        </p>
-        <img 
-          src="Images/medieval.jpg" 
-          alt="Castelo medieval - Viagem no Tempo">
-      </article>
+        <article id="medieval">
+          <h2>Idade Média</h2>
+          <h3>Mergulhe no período dos castelos e cavaleiros</h3>
+          <p>
+            Experimente a vida medieval, visite castelos imponentes, participe
+            de torneios e descubra os mistérios da época.
+          </p>
+          <img src="Images/medieval.jpg" alt="Castelo medieval" />
+        </article>
 
-      <article id="futuro">
-        <h2>Futuro Cyberpunk</h2>
-        <h3>Adentre um mundo futurista cheio de neon e tecnologia</h3>
-        <p>
-          Sinta a adrenalina das cidades iluminadas por neon, veículos voadores e a integração entre humanos e máquinas.
-        </p>
-        <img 
-          src="Images/futuro.jpg" 
-          alt="Cidade futurista cyberpunk - Viagem no Tempo">
-      </article>
-    </section>
+        <article id="futuro">
+          <h2>Futuro Cyberpunk</h2>
+          <h3>Adentre um mundo futurista cheio de neon e tecnologia</h3>
+          <p>
+            Sinta a adrenalina das cidades iluminadas por neon, veículos
+            voadores e a integração entre humanos e máquinas.
+          </p>
+          <img src="Images/futuro.jpg" alt="Cidade futurista" />
+        </article>
+      </section>
 
       <!-- Parte onde o usuário pode se cadastrar -->
-    <section class="formulario" aria-label="Formulário de Cadastro">
-      <h2>Cadastre-se para Receber Nossas Ofertas</h2>
-      <!-- O formulário onde a pessoa escreve seus dados -->
-      <form action="#" method="post" novalidate>
-        <!-- Nome -->
-        <label for="nome">Seu Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+      <section class="formulario" aria-label="Formulário de Cadastro">
+        <h2>Cadastre-se para Receber Nossas Ofertas</h2>
+        <!-- O formulário onde a pessoa escreve seus dados -->
+        <form action="#" method="post" novalidate>
+          <!-- Nome -->
+          <label for="nome">Seu Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome"
+            required
+          />
 
-        <!-- E-mail -->
-        <label for="email">Seu e-mail:</label>
-        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
+          <!-- E-mail -->
+          <label for="email">Seu e-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+            required
+          />
 
-        <!-- Selecionar época -->
-        <label for="epoca">Selecione a época de interesse:</label>
-        <select id="epoca" name="epoca" required>
-          <option value="" disabled selected>Escolha uma época</option>
-          <option value="roma">Roma Antiga</option>
-          <option value="medieval">Idade Média</option>
-          <option value="futuro">Futuro Cyberpunk</option>
-        </select>
+          <!-- Selecionar época -->
+          <label for="epoca">Selecione a época de interesse:</label>
+          <select id="epoca" name="epoca" required>
+            <option value="" disabled selected>Escolha uma época</option>
+            <option value="roma">Roma Antiga</option>
+            <option value="medieval">Idade Média</option>
+            <option value="futuro">Futuro Cyberpunk</option>
+          </select>
 
-     <!-- Preferência de contato -->
-        <label for="contato">Modo preferido de contato:</label>
-        <select id="contato" name="contato" required>
-          <option value="" disabled selected>Escolha uma opção</option>
-          <option value="email">E-mail</option>
-          <option value="telefone">Telefone</option>
-          <option value="whatsapp">WhatsApp</option>
-        </select>
+          <!-- Preferência de contato -->
+          <label for="contato">Modo preferido de contato:</label>
+          <select id="contato" name="contato" required>
+            <option value="" disabled selected>Escolha uma opção</option>
+            <option value="email">E-mail</option>
+            <option value="telefone">Telefone</option>
+            <option value="whatsapp">WhatsApp</option>
+          </select>
 
-       <!-- Botão de enviar -->
-        <button type="button">Enviar</button>
-      </form>
-    </section>
-  </main>
+          <!-- Botão de enviar -->
+          <button type="button">Enviar</button>
+        </form>
+      </section>
+    </main>
 
-  <!-- Rodapé: parte de baixo do site -->
-  <footer>
-    &copy; 2025 Bernardo Beck - Viagem no Tempo | Todos os direitos reservados
-  </footer>
-</body>
-</html> 
+    <!-- Rodapé: parte de baixo do site -->
+    <footer>
+      &copy; 2025 Bernardo Beck - Viagem no Tempo | Todos os direitos reservados
+    </footer>
+  </body>
+</html>

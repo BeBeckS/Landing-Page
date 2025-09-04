@@ -1,222 +1,258 @@
 /* Deixa tudo mais organizadinho */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Fundo da página com um degradê de cores */
 body {
-  background: linear-gradient(135deg, #1f1c2c, #928dab);
-  color: #f0f0f3;
-  min-height: 100vh; /* faz ocupar a tela inteira */
-  display: flex;
-  flex-direction: column;
-  scroll-behavior: smooth; /* rolagem suave */
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #f0f0f3;
+    min-height: 100vh;
+    /* faz ocupar a tela inteira */
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    /* rolagem suave */
 }
 
 /* Links */
 a {
-  color: #00bcd4;
-  text-decoration: none;
-  transition: color 0.3s ease;
+    color: #00bcd4;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
+
 a:hover {
-  color: #03a9f4;
-  text-decoration: underline;
+    color: #03a9f4;
+    text-decoration: underline;
 }
 
 /* ------------------------
    CABEÇALHO
    ------------------------ */
 header {
-  background: #0d1117cc; /* fundo escuro e meio transparente */
-  padding: 20px 30px;
-  display: flex;
-  justify-content: space-between; /* título de um lado, menu do outro */
-  align-items: center;
-  position: sticky; /* gruda no topo quando rolar */
-  top: 0;
-  z-index: 999; /* fica por cima de tudo */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.5); /* sombra embaixo */
-  backdrop-filter: blur(8px); /* efeito de vidro */
+    background: #0d1117cc;
+    /* fundo escuro e meio transparente */
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    /* título de um lado, menu do outro */
+    align-items: center;
+    position: sticky;
+    /* gruda no topo quando rolar */
+    top: 0;
+    z-index: 999;
+    /* fica por cima de tudo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    /* sombra embaixo */
+    backdrop-filter: blur(8px);
+    /* efeito de vidro */
 }
 
 header h1 {
-  font-family: 'Cinzel', serif;
-  font-weight: 900;
-  font-size: 1.8rem;
-  color: #00e0ff;
-  letter-spacing: 0.1em;
-  text-shadow: 0 0 10px #00e0ff; /* brilho */
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #00e0ff;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #00e0ff;
+    /* brilho */
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  gap: 25px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
 }
+
 nav ul li {
-  font-weight: 600;
-  font-size: 1.1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
 /* ------------------------
    ÁREA PRINCIPAL
    ------------------------ */
 main {
-  max-width: 1200px;
-  margin: 30px auto 60px auto;
-  padding: 0 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
-  align-items: flex-start;
+    max-width: 1200px;
+    margin: 30px auto 60px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 /* ------------------------
    SEÇÃO DESTINOS
    ------------------------ */
 section.destinos {
-  flex: 1 1 600px;
-  background: #222429cc;
-  border-radius: 15px;
-  padding: 30px;
-  box-shadow: 0 0 15px #00e0ff44;
-  animation: fadein 1.5s ease forwards; /* animação entrando */
-}
-section.destinos h2 {
-  font-family: 'Cinzel', serif;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #00e0ff;
-  border-bottom: 2px solid #00e0ffaa;
-  padding-bottom: 10px;
+    flex: 1 1 600px;
+    background: #222429cc;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 15px #00e0ff44;
+    animation: fadein 1.5s ease forwards;
+    /* animação entrando */
 }
 
- section.destinos article {
-      margin-bottom: 30px;
-    }
-    section.destinos h3 {
-      font-size: 1.4rem;
-      margin-bottom: 10px;
-      color: #a0f7ff;
-      letter-spacing: 0.03em;
-      text-shadow: 0 0 3px #00e0ff;
-    }
-    section.destinos p {
-      line-height: 1.5;
-      color: #d1e8ee;
-    }
+section.destinos h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00e0ff;
+    border-bottom: 2px solid #00e0ffaa;
+    padding-bottom: 10px;
+}
+
+section.destinos article {
+    margin-bottom: 30px;
+}
+
+section.destinos h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #a0f7ff;
+    letter-spacing: 0.03em;
+    text-shadow: 0 0 3px #00e0ff;
+}
+
+section.destinos p {
+    line-height: 1.5;
+    color: #d1e8ee;
+}
 
 section.destinos img {
-  width: 100%;
-  max-width: 560px;
-  border-radius: 12px;
-  margin-top: 15px;
-  box-shadow: 0 0 20px #00e0ff66;
-  transition: transform 0.3s ease;
-  cursor: pointer;
+    width: 100%;
+    max-width: 560px;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: 0 0 20px #00e0ff66;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
+
 section.destinos img:hover {
-  transform: scale(1.05); /* cresce um pouquinho quando passa o mouse */
+    transform: scale(1.05);
+    /* cresce um pouquinho quando passa o mouse */
 }
 
 /* ------------------------
    FORMULÁRIO
    ------------------------ */
 section.formulario {
-  flex: 1 1 350px;
-  background: linear-gradient(145deg, #00324f, #005577);
-  border-radius: 20px;
-  padding: 40px 30px;
-  box-shadow: 0 6px 15px rgba(0, 128, 255, 0.6);
-  animation: slidein 1.5s ease forwards; /* entra deslizando */
-  color: #b7eafd;
+    flex: 1 1 350px;
+    background: linear-gradient(145deg, #00324f, #005577);
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 6px 15px rgba(0, 128, 255, 0.6);
+    animation: slidein 1.5s ease forwards;
+    /* entra deslizando */
+    color: #b7eafd;
 }
- section.formulario h2 {
-      font-family: 'Cinzel', serif;
-      font-size: 2rem;
-      margin-bottom: 25px;
-      color: #74d2fe;
-      border-bottom: 2px solid #74d2feaa;
-      padding-bottom: 8px;
-      text-align: center;
-      text-shadow: 0 0 6px #4db8ff;
-    }
 
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
+section.formulario h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #74d2fe;
+    border-bottom: 2px solid #74d2feaa;
+    padding-bottom: 8px;
+    text-align: center;
+    text-shadow: 0 0 6px #4db8ff;
+}
 
-    label {
-      font-size: 0.95rem;
-      font-weight: 600;
-    }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
-    input[type="text"],
-    input[type="email"],
-    select {
-      padding: 12px 15px;
-      font-size: 1rem;
-      border-radius: 8px;
-      border: none;
-      outline: none;
-      transition: box-shadow 0.3s ease;
-    }
-    input[type="text"]:focus,
-    input[type="email"]:focus,
-    select:focus {
-      box-shadow: 0 0 10px #00e0ff88;
-      background: #014770;
-      color: #d0f5ff;
-    }
+label {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    box-shadow: 0 0 10px #00e0ff88;
+    background: #014770;
+    color: #d0f5ff;
+}
 
 
 /* Botão */
 button {
-  background-color: #00bcd4;
-  border: none;
-  padding: 15px 0;
-  color: #002d40;
-  font-size: 20px;
-  font-weight: 700;
-  border-radius: 12px;
-  cursor: pointer;
-  box-shadow: 0 5px 15px #00bcd4aa;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #00bcd4;
+    border: none;
+    padding: 15px 0;
+    color: #002d40;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #00bcd4aa;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 button:hover {
-  background-color: #0097a7;
-  color: #ffffff;
-  box-shadow: 0 7px 20px #00838fbb;
+    background-color: #0097a7;
+    color: #ffffff;
+    box-shadow: 0 7px 20px #00838fbb;
 }
 
 /* ------------------------
    RODAPÉ
    ------------------------ */
 footer {
-  background: #0a0a0a;
-  color: #78909c;
-  text-align: center;
-  padding: 15px 10px;
-  font-size: 14px;
-  border-top: 1px solid #222;
-  margin-top: auto;
+    background: #0a0a0a;
+    color: #78909c;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+    border-top: 1px solid #222;
+    margin-top: auto;
 }
 
 /* ------------------------
    ANIMAÇÕES
    ------------------------ */
 @keyframes fadein {
-  from {opacity: 0; transform: translateY(30px);}
-  to {opacity: 1; transform: translateY(0);}
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
+
 @keyframes slidein {
-  from {opacity: 0; transform: translateX(50px);}
-  to {opacity: 1; transform: translateX(0);}
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
